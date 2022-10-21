@@ -1,14 +1,24 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate a markdown README file for github project",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Roodolph Senecal",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsenecal/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsenecal/readme-generator/issues"
+  },
+  "homepage": "https://github.com/rsenecal/readme-generator#readme"
 }
