@@ -56,7 +56,17 @@ const prjSpecs = [
         message: 'Under what license would you like to list your project',
         choices: ['Apache License 2.0', 'GNU GPLv3', 'MIT','ISC License','GNU GPLv2'],
         default: 'MIT'
-    }    
+    },
+    {
+        type: 'input',
+        name: 'devEmail',
+        message: "What's your Email",
+    },
+    {
+        type: 'input',
+        name: 'devGithubName',
+        message: "What's your Github username",
+    }            
 ]
 
 
@@ -78,6 +88,8 @@ function writeToFile({
     prjUsage,
     prjImage,
     prjFeatures,
+    devEmail,
+    devGithubName
     // prjLicense
 }) {
     fs.writeFile('README.md',
@@ -96,7 +108,15 @@ function writeToFile({
    ## Credit
    ${prjCredits}
    ## Features
-   ${prjFeatures}` 
+   ${prjFeatures}
+   ## Contact Me
+   ### GitHub
+   ![Github Account](https://github.com/${devGithubName})
+
+   ### Email
+   <a href="mailto:${devEmail}">Email me</a>
+
+   ` 
    
    ,
    
