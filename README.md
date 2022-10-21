@@ -6,13 +6,21 @@
    - [Credits](#credit)
    
    ## Installation
-   type node index at your terminal within the project folder
+   Type node index at your terminal within the app folder.
    ## Usage
    Run using node index
    ![appscreen](https://karmasoft2-screens-2018.s3.amazonaws.com/Screen+Shot+2022-10-20+at+9.28.26+PM.png)
    ## Credit
-   Roody, Mac, Terminal
+   Roody, Mac and Terminal
    ## Features
-   Place holder for screen image
+   Place Holder for screen image
+   ## Contact Me
+   ### GitHub
+   ![Github Account](https://github.com/rsenecal)
+
+   ### Email
+   <a href="mailto:roodysenecal@gmail.com">Email me</a>
+
+   
     ## License
     ![MIT](https://img.shields.io/badge/license-MIT-blue)
